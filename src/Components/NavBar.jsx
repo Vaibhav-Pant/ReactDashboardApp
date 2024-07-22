@@ -27,7 +27,7 @@ const NavBar = ({show, toggle, heading}) => {
                 
             <div className='navbar'>
                 <h2>{heading}</h2>
-                <img src="/images/user.svg" alt="icon" onClick={menubar} />
+                <img src="./images/user.svg" alt="icon" onClick={menubar} />
                 {
                     showMenu ? <DropDown /> : ""
                 }

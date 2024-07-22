@@ -8,7 +8,7 @@ const MenuBar = (props) => {
         <>
             <NAVMENU>
                 <div className='heading'>
-                    <img onClick={props.toggle} src="images/ham.svg" alt="ham" />
+                    <img onClick={props.toggle} src="./images/ham.svg" alt="ham" />
                     <div>
                         <h2>Side Menu</h2>
                     </div>
@@ -22,7 +22,7 @@ const MenuBar = (props) => {
                         onClick={props.toggle}
                     >
                         <li>
-                            <img src="/images/dash.svg" alt="dash" />
+                            <img src="./images/dash.svg" alt="dash" />
                             Dashboard
                         </li>
                     </NavLink>
@@ -33,7 +33,7 @@ const MenuBar = (props) => {
                         onClick={props.toggle}
                     >
                         <li>
-                            <img src="/images/trans.svg" alt="trans" />
+                            <img src="./images/trans.svg" alt="trans" />
                             Transaction
                         </li>
                     </NavLink>
@@ -44,7 +44,7 @@ const MenuBar = (props) => {
                         onClick={props.toggle}
                     >
                         <li>
-                            <img src="/images/supp.svg" alt="supp" />
+                            <img src="./images/supp.svg" alt="supp" />
                             Support
                         </li>
                     </NavLink>
